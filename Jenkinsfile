@@ -1,6 +1,6 @@
 //simple-python-application
 pipeline {
-	agent none {
+	agent none 
 	stages {
 		stage('Build'){
 			agent {
@@ -15,5 +15,5 @@ pipeline {
 
 	}
 
-	}
+	
 }
